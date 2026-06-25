@@ -7,7 +7,7 @@ declare global {
         icon: ImageSourcePropType;
     }
 
-    interface IconKey {
+    interface TabIconProps {
         focused: boolean;
         icon: ImageSourcePropType;
     }
