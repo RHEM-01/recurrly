@@ -1,6 +1,6 @@
 import {View, Text, Image} from 'react-native'
 import React from 'react'
-import {formatCurrency} from "@/lub/utils";
+import {formatCurrency} from "@/lib/utils";
 
 const UpcomingSubscriptionCard = ({ name, price, daysLeft, icon, currency }: UpcomingSubscription) => {
     return (

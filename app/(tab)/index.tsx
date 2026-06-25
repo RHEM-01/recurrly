@@ -5,7 +5,7 @@ import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 import images from "@/constants/images";
 import {HOME_BALANCE, HOME_SUBSCRIPTIONS, HOME_USER, UPCOMING_SUBSCRIPTIONS} from "@/constants/data";
 import {icons} from "@/constants/icons";
-import {formatCurrency} from "@/lub/utils";
+import {formatCurrency} from "@/lib/utils";
 import dayjs from "dayjs";
 import ListHeading from "@/components/ListHeading";
 import UpcomingSubscriptionCard from "@/components/UpcomingSubscriptionCard";
